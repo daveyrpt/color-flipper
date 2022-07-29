@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Flipper</title>
+
+        <!-- .css -->
+        <link href="../dist/output.css" rel="stylesheet"> 
+
+    </head>
+    <body>
+        
+        <header>       
+                <ul class="nav-links  grid grid-cols-2 gap-4 justify-items-center bg-blue-100 py-5">
+                    <li>
+                        <a href="index.html" class="font-mono text-xl">Color Flipper</a>
+                    </li>
+                    <li>
+                        <a href="hex.html" class="font-mono text-xl">Hex</a>
+                    </li>
+                </ul>
+        </header>
+
+        <main>
+            <div class="container grid mx-auto justify-center my-60">
+                <div>
+                    <h1 class="bg-slate-700 text-white text-2xl font-mono px-2 py-2 rounded-md">Background Color : <span class="colorValue text-blue-300"></span></h1>
+                </div>
+                <div class="justify-items-center mx-auto ">
+                    <button class="btn btn-hero px-4 border-2 border-black rounded-md m-auto mt-10 uppercase py-2 font-bold" id="btn">click me</button>
+                </div>
+            </div>
+        </main>
+    </body>
+
+    <!-- .js -->
+    <script src="hex.js"></script>
+</html> 
